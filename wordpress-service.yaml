@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: nginx-service
+  name: wordpress-service
 spec:
   selector:
-    app: nginx
+    app: wordpress
   ports:
     - protocol: TCP
       port: 80
