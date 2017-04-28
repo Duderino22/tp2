@@ -1,5 +1,5 @@
 apiVersion: extensions/v1beta1
-kind: wordpress
+kind: Ingress
 metadata:
   name: wordpress-ingress
 spec:
